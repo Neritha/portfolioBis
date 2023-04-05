@@ -5,8 +5,6 @@
 }
 
 /* barre de navigation */
-
-
 header {
 	background-color: #06c;
 	color: #fff;
@@ -62,11 +60,8 @@ footer{
 article{
     padding: 10px;
     text-align: center;
-    /*display: flex;
-    justify-content: center;*/
 }
 /*fin des généraliter d'articles*/
-
 
 /*article 1*/
 .article1{
@@ -89,7 +84,6 @@ article{
 .article2{
     background-color: rgb(152, 255, 255);
     height: 70vh;
-
 }
 /*fin article 2*/
 
@@ -189,3 +183,10 @@ article{
     height: 60vh;
 }
 /*fin article 12*/
+
+/*article 13*/
+.article13{
+    background-color: rgb(255, 102, 0);
+    height: 60vh;
+}
+/*fin article 13*/
