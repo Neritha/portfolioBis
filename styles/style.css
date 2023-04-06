@@ -26,7 +26,6 @@ header nav h3{
     margin-left: 10px;
 }
 
-
 header nav ul{
     list-style: none;
     display: flex;
@@ -79,7 +78,7 @@ article{
 
 /*article 1*/
 .article1{
-    background-image: url('../images/imageFD1.jpeg');
+    background-image: url('../images/imageFD10.jpg');
     height: 50vw; 
     background-size: cover;
     background-attachment: fixed;
@@ -142,6 +141,9 @@ article{
     color: black;
 }
 
+.article2 a:hover{
+    border-radius: 5px;
+}
 
 /*fin article 2*/
 
@@ -188,6 +190,10 @@ article{
     text-decoration: none;
     color: black;
 }
+.article3 a:hover{
+    border-radius: 5px;
+}
+
 /*fin article 3*/
 
 /*article 4*/
@@ -232,6 +238,10 @@ article{
     text-decoration: none;
     color: black;
 }
+.article4 a:hover{
+    border-radius: 5px;
+}
+
 /*fin article 4*/
 
 /*article 5*/
