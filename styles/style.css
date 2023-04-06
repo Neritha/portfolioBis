@@ -59,32 +59,40 @@ footer{
 /*pour les article en général*/
 article{
     padding: 10px;
-    text-align: center;
+    /*text-align: center;*/
 }
 /*fin des généraliter d'articles*/
 
 /*article 1*/
 .article1{
-    background-image: url('../images/imageFD7.jpg');
+    background-image: url('../images/imageFD1.jpeg');
     height: 100vh; 
     background-size: cover;
     background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.h1-1{
+.article1 h1{
     color :blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    text-align: center;
+    margin-left: 20%;
+    font-size: 5em;
 }
 /*fin article1*/
 
 /*article 2*/
 .article2{
+    /*background-image: url('../images/imageFD7.jpg');*/
     background-color: rgb(152, 255, 255);
     height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+
 }
+
 /*fin article 2*/
 
 /*article 3*/
@@ -107,14 +115,17 @@ article{
     height: 100vh; 
     background-size: cover;
     background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.h1-5{
+.article5 h1{
     color :blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    text-align: center;
+    margin-left: 20%;
+    font-size: 5em;
 }
+
 /*fin article 5*/
 
 /*article 6*/
@@ -137,13 +148,15 @@ article{
     height: 100vh; 
     background-size: cover;
     background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.h1-8{
+.article8 h1{
     color :blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    text-align: center;
+    margin-left: 20%;
+    font-size: 5em;
 }
 /*fin article 8*/
 
@@ -156,17 +169,20 @@ article{
 
 /*article 10*/
 .article10{
-    background-image: url('../images/imageFD8.jpg');
+    background-image: url('../images/imageFD8B.jpg');
+    
     height: 100vh; 
     background-size: cover;
     background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.h1-10{
+.article10 h1{
     color :blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    text-align: center;
+    margin-left: 20%;
+    font-size: 5em;
 }
 /*fin article 11*/
 
