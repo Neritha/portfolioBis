@@ -113,23 +113,21 @@ article{
 }
 
 .article2 div h2{ /*pour le titre*/
+    background-color:yellow;
+    padding: 10px;
     border: solid;
     border-color: black;
-    border-radius: 20px 20px 0 0 ;
-    padding: 10px;
+    border-bottom: 1px;
+    border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
-    background-color:yellow;
-    border-width: 3px 3px 2px;
 }
 .article2 div p{ /*pour le text*/
+    background-color: yellow;
+    padding: 10px;
     border: solid;
     border-color: black;
-    border-radius: 0 0 20px 20px;
-    padding: 10px;
-    height: 200px;
-    background-color:#fafa1a;
-    border-width: 2px 3px 3px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .article2 a{ /*pour le boutton*/
@@ -158,28 +156,27 @@ article{
 }
 
 .article3 div{  /*pour le titre et le text (h2+p)*/
-    margin: 10px;
-    padding: 10px;
+    box-shadow: 15px 16px blue;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 .article3 div h2{ /*pour le titre*/
+    background-color:yellow;
+    padding: 10px;
     border: solid;
     border-color: black;
-    border-radius: 20px 20px 0 0 ;
-    padding: 10px;
+    border-bottom: 1px;
+    border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
-    background-color:yellow;
-    border-width: 3px 3px 2px;
 }
 .article3 div p{ /*pour le text*/
+    background-color: yellow;
+    padding: 10px;
     border: solid;
     border-color: black;
-    border-radius: 0 0 20px 20px;
-    padding: 10px;
-    height: 200px;
-    background-color:#fafa1a;
-    border-width: 2px 3px 3px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .article3 a{
@@ -199,35 +196,29 @@ article{
 
 /*article 4*/
 .article4{
-    background-color: rgb(79, 242, 20);
+    background-color: rgb(63, 249, 147);
     height: 70vh;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .article4 div{  /*pour le titre et le text (h2+p)*/
-    margin: 10px;
-    padding: 10px;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    background-color: #fafa1a;
+    border-radius: 20px;
 }
 
 .article4 div h2{ /*pour le titre*/
     border: solid;
     border-color: black;
-    border-radius: 20px 20px 0 0 ;
-    padding: 10px;
     display: flex;
     justify-content: center;
-    background-color:yellow;
-    border-width: 3px 3px 2px;
+    border-radius: 20px;
 }
 .article4 div p{ /*pour le text*/
-    border: solid;
-    border-color: black;
-    border-radius: 0 0 20px 20px;
-    padding: 10px;
-    height: 200px;
-    background-color:#fafa1a;
-    border-width: 2px 3px 3px;
+    margin: 15px;
 }
 
 .article4 a{
