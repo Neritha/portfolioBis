@@ -69,7 +69,7 @@ footer{
 /*fin footer*/
 
 
-/*pour les article en général*/
+/*pour les article en général*/ /*fair un boutton de bas et des cardes*/
 article{
     padding: 10px;
     display: flex;
