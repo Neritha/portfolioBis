@@ -256,17 +256,81 @@ article{
 /*fin article 5*/
 
 /*article 6*/
+/*
 .article6{
     background-color: rgb(242, 212, 20);
     height: 60vh;
+}*/
+.article6{
+    /*background-image: url('../images/imageFD7.jpg');*/
+    background-color: rgb(242, 212, 20);
+    height: 60vh; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.article6 div{  /*pour le titre et le text (h2+p)*/
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+.article6 div h2{ /*pour le titre*/
+    background-color:yellow;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-bottom: 1px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.article6 div p{ /*pour le text*/
+    background-color: yellow;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+
 /*fin article 6*/
 
 /*article 7*/
+/*
 .article7{
     background-color: rgb(20, 235, 242);
     height: 60vh;
+}*/
+.article7{
+    background-color: rgb(244, 108, 140);
+    height: 60vh ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.article7 div{
+    width: 40%;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    background-color: #fafa1a;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.article7 div h2{
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.article7 div p{
+    margin: 15px;
+}
+
 /*fin article 7*/
 
 /*article 8*/
@@ -311,7 +375,7 @@ article{
     margin-left: 20%;
     font-size: 5em;
 }
-/*fin article 11*/
+/*fin article 10*/
 
 /*article 11*/
 .article11{
@@ -321,10 +385,45 @@ article{
 /*fin article 11*/
 
 /*article 12*/
+/*
 .article12{
     background-color: rgb(255, 102, 0);
     height: 60vh;
+}*/
+
+/*début article 12*/
+.article12{
+    background-color: rgb(134, 161, 247);
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.article12 div{
+    box-shadow: 15px 16px blue;
+    margin: 20px;
+    width: 40%;
+}
+
+.article12 div p{
+    background-color: yellow;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+}
+
+.article12 div h2{
+    background-color:yellow;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /*fin article 12*/
 
 /*article 13*/
@@ -333,3 +432,43 @@ article{
     height: 60vh;
 }
 /*fin article 13*/
+
+/*article 14*/
+.article14{
+    background-image: url('../images/imageFD11B.jpg');
+    
+    height: 100vh; 
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article14 h1{
+    color :blanchedalmond;
+    margin-left: 20%;
+    font-size: 5em;
+}
+/*fin article 14*/
+
+/*article 15*/
+.article15{
+    background-color: rgb(65, 205, 10);
+    height: 60vh;
+}
+/*fin article 15*/
+
+/*article 16*/
+.article16{
+    background-color: rgb(87, 126, 255);
+    height: 60vh;
+}
+/*fin article 16*/
+
+/*article 17*/
+.article17{
+    background-color: rgb(196, 84, 252);
+    height: 60vh;
+}
+/*fin article 17*/
